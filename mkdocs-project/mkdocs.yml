@@ -1,0 +1,26 @@
+# This is the main configuration file for the MkDocs website.
+# Use hash-comments to comment out pages have not been written
+# Reference: http://www.mkdocs.org/user-guide/configuration/
+#
+site_name: OWF Learn / WaterML 2
+pages:
+- Home: index.md
+- WaterML 2 Overview: waterml2-overview.md
+- WaterML 2 Syntax: waterml2-syntax.md
+- 'WaterML 2 Tools by Language':
+  - WaterML 2 with Excel: tools-excel/waterml2-excel.md
+  - WaterML 2 with Java: tools-java/waterml2-java.md
+  - WaterML 2 with JavaScript: tools-javascript/waterml2-javascript.md
+  - WaterML 2 with Python: tools-python/waterml2-python.md
+  - WaterML 2 with R: tools-r/waterml2-r.md
+- Resources: waterml2-resources.md
+theme: readthedocs
+repo_url:  https://github.com/OpenWaterFoundation/owf-learn-waterml2
+site_description:  Open Water Foundation Learn WaterML 2
+site_author:  Open Water Foundation
+site_favicon:  OWF-Logo-Favicon-32x32.png
+copyright:  Copyright Open Water Foundation
+#extra_css:
+#- css/extra.css
+# Defaults to all JavaScript in the docs folder
+# extra_javascript:
