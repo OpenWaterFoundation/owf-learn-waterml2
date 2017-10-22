@@ -1,41 +1,66 @@
 # owf-learn-waterml2 #
 
-This repository contains [Open Water Foundation](http://openwaterfoundation.org)
-learning resources for WaterML 2.0 data files.
-This document contains the following sections:
+This repository contains the [Open Water Foundation (OWF)](http://openwaterfoundation.org/) WaterML 2 training materials,
+which provides guidance for implementing the waterML 2 time series exchange format.
+The documentation is written for software developers, although an effort has been made to provide explanations for the layperson.
 
-* [Introduction](#introduction)
-* [Installation](#installation)
-* [Editing and Viewing Content](#editing-and-viewing-content)
-* [Contributing](#contributing)
+See the deployed [OWF / Learn WaterML 2](http://learn.openwaterfoundation.org/owf-learn-waterml2/) documentation.
 
-## Introduction ##
+## Repository Contents ##
 
-This repository contains source content for a MkDocs static website project.
-The website content can be edited locally using a text editor, viewed with MkDocs, and then deployed.
+The repository contains the following:
 
-The deployed website and main Open Water Foundation / Learn websites are:
+```text
+.github/              (Files specific to GitHub such as issue template)
+.gitattributes        (Typical Git configuration file)
+.gitignore            (Typical Git configuration file)
+README.md             (This file)
+build-util/           (Useful scripts to view, build, and deploy documentation)
+mkdocs-project/       (Typical MkDocs project for this documentation)
+  mkdocs.yml          (MkDocs configuration file for website)
+  docs/               (Folder containing source Markdown and other files for website)
+  site/               (Folder created by MkDocs containing the static website - ignored using .gitignore)
 
-* [Open Water Foundation / Learn WaterML 2](http://learn.openwaterfoundation.org/owf-learn-waterml2/index.html)
-* [Open Water Foundation / Learn](http://learn.openwaterfoundation.org)
+```
 
-## Installation ##
+## Development Environment ##
 
-To install the contents of the repository, clone to a suitable development folder.
-
-[Install Python and MkDocs and follow MkDocs instructions](http://learn.openwaterfoundation.org/owf-learn-mkdocs).
+The development environment for contributing to this project requires installation of Python, MkDocs, and Material MkDocs theme.
+Python 2 has been used for development.  See the [OWF / Learn MkDocs](http://learn.openwaterfoundation.org/owf-learn-mkdocs/)
+documentation for more information about MkDocs.
 
 ## Editing and Viewing Content ##
 
-The documentation follows normal MkDocs conventions.
-To clearly indicate the project, all files are located in the `mkdocs-project` folder.
-Edit the `mkdocs.yml` file to indicate the file outline.
-Edit the content in the `docs` folder.
-To view the content, run `mkdocs serve` in a command shell that recognizes
-where Python and MkDocs are installed.
-Then view the content using a browser with URL `http://localhost:8000`.
+If the development environment is properly configured, edit and view content as follows:
+
+1. Edit content in the `mkdocs-project/docs` folder and update `mkdocs-project/mkdocs.yml` as appropriate.
+2. Run the `build-util/run-mkdocs-serve-8000.sh` script (Linux) or equivalent.
+3. View content in a web browser using URL `http://localhost:8000`.
+
+## License ##
+
+The OWF Learn WaterML 2 website content and examples are licensed under the
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0).
 
 ## Contributing ##
 
-The Open Water Foundation has developed this documentation to help its staff and collaborators effectively use
-WaterML 2 files in the work we do.  Feel free to contribute by posting issues on the GitHub repository or using GitHub pull requests.
+Contribute to the documentation as follows:
+
+1. Use GitHub repository issues to report minor issues.
+2. Use GitHub pull requests.
+
+## Maintainers ##
+
+This repository is maintained by the [Open Water Foundation](http://openwaterfoundation.org/).
+
+## Contributors ##
+
+Steve Malers, Open Water Foundation (@smalers)
+
+## Release Notes ##
+
+The following release notes indicate the update history for documentation, with GitHub repository issue indicated,
+if applicable (links to issues via README.md are not cleanly supported by GitHub so use the repository issues page to find).
+
+* 2017-10-21 [1] - switch to Material theme, update documentation based on experience.
+* 2017-07-16 - initial version.

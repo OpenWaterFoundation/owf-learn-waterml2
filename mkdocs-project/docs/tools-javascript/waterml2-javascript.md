@@ -1,4 +1,4 @@
-# Learn WaterML 2 / Tools for JavaScript
+# Learn WaterML 2 / Tools for JavaScript #
 
 This page provides information about using WaterML format with JavaScript.
 

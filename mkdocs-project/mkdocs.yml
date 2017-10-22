@@ -2,7 +2,7 @@
 # Use hash-comments to comment out pages have not been written
 # Reference: http://www.mkdocs.org/user-guide/configuration/
 #
-site_name: OWF Learn / WaterML 2
+site_name: 'OWF Learn / WaterML 2'
 pages:
 - Home: index.md
 - WaterML 2 Overview: waterml2-overview.md
@@ -14,13 +14,19 @@ pages:
   - WaterML 2 with Python: tools-python/waterml2-python.md
   - WaterML 2 with R: tools-r/waterml2-r.md
 - Resources: waterml2-resources.md
-theme: readthedocs
-repo_url:  https://github.com/OpenWaterFoundation/owf-learn-waterml2
-site_description:  Open Water Foundation Learn WaterML 2
-site_author:  Open Water Foundation
-site_favicon:  OWF-Logo-Favicon-32x32.png
-copyright:  Copyright Open Water Foundation
-#extra_css:
-#- css/extra.css
-# Defaults to all JavaScript in the docs folder
-# extra_javascript:
+# ------- configuration properties ---------------
+# Use Material theme
+# - installation notes:  https://github.com/squidfunk/mkdocs-material
+theme: material
+#theme: readthedocs
+# Don't indicate the repo because Edit will be shown on every page (don't want that in deployed mode)
+# - Also see edit_uri if repo_url is specified
+#repo_url:  https://github.com/OpenWaterFoundation/owf-learn-waterml2
+site_description:  'Open Water Foundation Learn WaterML 2'
+site_author:  'Open Water Foundation'
+site_favicon:  'images/OWF-Logo-Favicon-32x32.png'
+copyright:  'Copyright Open Water Foundation'
+# Extra options
+extra:
+  # Use extra CSS to customize styles, based on theme
+  extra_css: 'css/extra-material-theme.css'
