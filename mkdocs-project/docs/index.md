@@ -1,4 +1,4 @@
-# Open Water Foundation / Learn WaterML 2
+# Open Water Foundation / Learn WaterML 2 #
 
 This documentation provides resources to learn how to to use WaterML 2
 files for time series data, including examples with different programming languages.
@@ -13,7 +13,7 @@ This page of the documentation includes the following sections:
 * [License](#license) - license for this documentation website
 * [Source Repository on GitHub](#source-repository-on-github) - source files for this website
 
-## About the Open Water Foundation
+## About the Open Water Foundation ##
 
 The [Open Water Foundation](http://openwaterfoundation.org) is a 501(c)3 nonprofit social enterprise that focuses
 on developing and supporting open source software for water resources, so that organizations can make better decisions about water.
@@ -21,7 +21,7 @@ OWF also seeks to increase open data solutions for water and other data to facil
 
 See also other [OWF learning resources](http://learn.openwaterfoundation.org).
 
-## How to Use this Documentation
+## How to Use this Documentation ##
 
 The documentation is organized in order of information and tasks necessary to understand and use WaterML 2 for data management and sharing.
 
@@ -38,7 +38,7 @@ The following main sections are included in this documentation:
 	+ [WaterML 2 with R](tools-r/waterml2-r)
 * [Resources](waterml2-resources) - various resources
 
-## License
+## License ##
 
 The OWF Learn WaterML 2 website content and examples are licensed under the
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0).
@@ -47,6 +47,7 @@ The OWF Learn WaterML 2 website content and examples are licensed under the
 
 The source files for this documentation are maintained in a GitHub repository:  [owf-learn-waterml2](https://github.com/OpenWaterFoundation/owf-learn-waterml2).
 
-## MkDocs
+## Release Notes ##
 
-This documentation is prepared using MkDocs.  For full MkDocs documentation visit [mkdocs.org](http://mkdocs.org/).
+This documentation was last updated 2017-10-21.
+See the [Release Notes in the GitHub Project](https://github.com/OpenWaterFoundation/owf-learn-waterml2#release-notes).

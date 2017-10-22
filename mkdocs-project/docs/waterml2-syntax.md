@@ -15,7 +15,7 @@ documentation is also helpful to understand the hierarchy of elements.
 	+ [Collection (Standard)](#collection-Standard)
 	+ [FeatureCollection (USGS)](#featurecollection-usgs)
 
-## Root Element
+## Root Element ##
 
 XML files are a hierarchy and require as single root element as the entry point.
 The root element for WaterML 2.0 according to the standard is `Collection`.

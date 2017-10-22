@@ -1,4 +1,4 @@
-# Learn WaterML 2 / Resources
+# Learn WaterML 2 / Resources #
 
 The following WaterML 2 resources are helpful:
 
