@@ -1,10 +1,10 @@
 # owf-learn-waterml2 #
 
-This repository contains the [Open Water Foundation (OWF)](http://openwaterfoundation.org/) WaterML 2 training materials,
+This repository contains the [Open Water Foundation (OWF)](https://openwaterfoundation.org/) WaterML 2 training materials,
 which provides guidance for implementing the waterML 2 time series exchange format.
 The documentation is written for software developers, although an effort has been made to provide explanations for the layperson.
 
-See the deployed [OWF / Learn WaterML 2](http://learn.openwaterfoundation.org/owf-learn-waterml2/) documentation.
+See the deployed [OWF / Learn WaterML 2](https://learn.openwaterfoundation.org/owf-learn-waterml2/) documentation.
 
 ## Repository Contents ##
 
@@ -26,7 +26,7 @@ mkdocs-project/       (Typical MkDocs project for this documentation)
 ## Development Environment ##
 
 The development environment for contributing to this project requires installation of Python, MkDocs, and Material MkDocs theme.
-Python 2 has been used for development.  See the [OWF / Learn MkDocs](http://learn.openwaterfoundation.org/owf-learn-mkdocs/)
+Python 2 has been used for development.  See the [OWF / Learn MkDocs](https://learn.openwaterfoundation.org/owf-learn-mkdocs/)
 documentation for more information about MkDocs.
 
 ## Editing and Viewing Content ##
@@ -51,7 +51,7 @@ Contribute to the documentation as follows:
 
 ## Maintainers ##
 
-This repository is maintained by the [Open Water Foundation](http://openwaterfoundation.org/).
+This repository is maintained by the [Open Water Foundation](https://openwaterfoundation.org/).
 
 ## Contributors ##
 
